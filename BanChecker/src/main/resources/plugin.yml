@@ -1,0 +1,10 @@
+name: BanChecker
+main: com.musicalcreeper01.banchecker.BanChecker
+version: 0.0.1
+    
+commands:
+   checkinfo:
+      description: Checks a players ban history on several global ban services using the Fishban API. This shouldn't be used as a decision for whether or not to ban a player! Some of the services it checks can be misused to make it look like a player has done things he has not.
+      usage: /<command> <player>
+      permission: banchecker.checkinfo
+      permission-message: You don't have <permission>
