@@ -42,7 +42,7 @@ public class BanChecker extends JavaPlugin {
 	
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-		if (cmd.getName().equalsIgnoreCase("checkban")) { // If the player typed /basic then do the following...
+		if (cmd.getName().equalsIgnoreCase("checkinfo")) { // If the player typed /checkinfo then do the following...
 			// doSomething
 			
 			JSONObject bandata = new JSONObject();
